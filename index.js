@@ -1,4 +1,64 @@
-// table of  19
+// table of  11
+let multi11 = document.getElementById("multi_11");
+
+for(let i = 1 ; i <= 20 ; i++){
+
+    console.log('11 *', i ,'=', i*11);
+    multi11.innerHTML += `11 * ${i} = ${i*11} <br>`;
+    multi11.style.backgroundColor = "silver";
+}
+
+
+
+
+
+
+// table of  12
+let multi12 = document.getElementById("multi_12");
+
+for(let i = 1 ; i <= 20 ; i++){
+
+    console.log('12 *', i ,'=', i*12);
+    multi12.innerHTML += `12 * ${i} = ${i*12} <br>`;
+    multi12.style.backgroundColor = "orange";
+}
+
+
+
+
+
+
+
+// table of  13
+let multi13 = document.getElementById("multi_13");
+
+for(let i = 1 ; i <= 20 ; i++){
+
+    console.log('13 *', i ,'=', i*13);
+    multi13.innerHTML += `13 * ${i} = ${i*13} <br>`;
+    multi13.style.backgroundColor = "pink";
+}
+
+
+
+
+
+
+
+
+// table of  15
+let multi14 = document.getElementById("multi_14");
+
+for(let i = 1 ; i <= 20 ; i++){
+
+    console.log('14 *', i ,'=', i*14);
+    multi14.innerHTML += `14 * ${i} = ${i*14} <br>`;
+    multi14.style.backgroundColor = "red";
+}
+
+
+
+// table of  15
 let multi15 = document.getElementById("multi_15");
 
 for(let i = 1 ; i <= 20 ; i++){

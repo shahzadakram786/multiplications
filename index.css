@@ -6,10 +6,23 @@
 .container{
     background-color: aqua;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 
-.container > div{
+.main{
     
-    background-color: aquamarine;
+    display: grid;
+   
+    width: 80%;
+    top: 50%;
+    left: 50%;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    background-color: rgb(72, 78, 76);
+}
+ 
+.boxes{
+
 }
