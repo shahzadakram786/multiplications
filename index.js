@@ -1,3 +1,48 @@
+const input = document.getElementById("input");
+const para = document.getElementById("par");
+const butn = document.getElementById("btn");
+ 
+
+
+butn.addEventListener('click', () =>{
+
+let a = parseInt(input.value)
+
+for(let i = 1;i <= 10 ; i++){
+
+
+
+if (!isNaN(a)) {
+    let result = number(a);
+    console.log(a);
+}
+else{
+    alert('Please enter a number');
+    console.log("you have entered a wrong data type")  ;
+}
+
+}
+});
+function number(a){
+    return a
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // table of  11
 let multi11 = document.getElementById("multi_11");
 
