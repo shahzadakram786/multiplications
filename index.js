@@ -152,5 +152,6 @@ let multi21 = document.getElementById("multi_21");
 
     console.log('21 *', i,'=', i*21)
     multi21.innerHTML += `21 * ${i} = ${i*21}<br>`
+    multi21.style.backgroundColor ="purple"
    
 }
