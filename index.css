@@ -15,6 +15,7 @@
     
 }
 .Submain{
+
     width: 80%;
     padding: 10px;
     width: 85%;
@@ -42,6 +43,12 @@
 }
 .main0{
     width: 85%;
+    background-color: rgb(72, 78, 76) ;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .main{
     /* position: relative; */
