@@ -1,6 +1,6 @@
 const input = document.getElementById("input");
 const para = document.getElementById("par");
-const butn = document.getElementById("btn");
+const butn = document.getElementById("butn");
  
 
 
@@ -8,20 +8,20 @@ butn.addEventListener('click', () =>{
 
 let a = parseInt(input.value)
 
-for(let i = 1;i <= 10 ; i++){
+// for(let i = 1;i <= 10 ; i++){
 
-
+// console.log(NaN(a))
 
 if (!isNaN(a)) {
     let result = number(a);
-    console.log(a);
+    console.log('this is a ',a);
 }
 else{
     alert('Please enter a number');
     console.log("you have entered a wrong data type")  ;
 }
 
-}
+// }
 });
 function number(a){
     return a
