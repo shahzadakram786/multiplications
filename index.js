@@ -11,17 +11,24 @@ let a = parseInt(input.value)
 // for(let i = 1;i <= 10 ; i++){
 
 // console.log(NaN(a))
-
+for(let i = 1 ; i <= 10 ; i++){
 if (!isNaN(a)) {
     let result = number(a);
-    console.log('this is a ',a);
+  para.innerHTML += `${a} x ${i} = ${i*a} <br>` 
+  para.style.backgroundColor = "silver";
+    // console.log('this is a ',a);
+
 }
 else{
-    alert('Please enter a number');
-    console.log("you have entered a wrong data type")  ;
+    // alert('Please enter a number');
+    para.innerHTML = "you have entered a wrong data type"  ;
+    para.style.color = "red";
+    para.style.fontWeight = "bolder";
+    para.style.wordSpacing = "2px";
+    para.style.textShadow = "5px 5px 10px white";
 }
 
-// }
+}
 });
 function number(a){
     return a
@@ -48,7 +55,7 @@ let multi11 = document.getElementById("multi_11");
 
 for(let i = 1 ; i <= 20 ; i++){
 
-    console.log('11 *', i ,'=', i*11);
+    // console.log('11 *', i ,'=', i*11);
     multi11.innerHTML += `11 * ${i} = ${i*11} <br>`;
     multi11.style.backgroundColor = "silver";
 }
@@ -63,7 +70,7 @@ let multi12 = document.getElementById("multi_12");
 
 for(let i = 1 ; i <= 20 ; i++){
 
-    console.log('12 *', i ,'=', i*12);
+    // console.log('12 *', i ,'=', i*12);
     multi12.innerHTML += `12 * ${i} = ${i*12} <br>`;
     multi12.style.backgroundColor = "orange";
 }
@@ -79,7 +86,7 @@ let multi13 = document.getElementById("multi_13");
 
 for(let i = 1 ; i <= 20 ; i++){
 
-    console.log('13 *', i ,'=', i*13);
+    // console.log('13 *', i ,'=', i*13);
     multi13.innerHTML += `13 * ${i} = ${i*13} <br>`;
     multi13.style.backgroundColor = "pink";
 }
@@ -96,7 +103,7 @@ let multi14 = document.getElementById("multi_14");
 
 for(let i = 1 ; i <= 20 ; i++){
 
-    console.log('14 *', i ,'=', i*14);
+    // console.log('14 *', i ,'=', i*14);
     multi14.innerHTML += `14 * ${i} = ${i*14} <br>`;
     multi14.style.backgroundColor = "red";
 }
@@ -108,7 +115,7 @@ let multi15 = document.getElementById("multi_15");
 
 for(let i = 1 ; i <= 20 ; i++){
 
-    console.log('15 *', i ,'=', i*15);
+    // console.log('15 *', i ,'=', i*15);
     multi15.innerHTML += `15 * ${i} = ${i*15} <br>`;
     multi15.style.backgroundColor = "orange";
 }
@@ -122,7 +129,7 @@ let multi16 = document.getElementById("multi_16");
 
 for(let i = 1 ; i <= 20 ; i++){
 
-    console.log('16 *', i ,'=', i*16);
+    // console.log('16 *', i ,'=', i*16);
     multi16.innerHTML += `16 * ${i} = ${i*16} <br>`;
     multi16.style.backgroundColor = "grey";
 }
@@ -138,7 +145,7 @@ let multi17 = document.getElementById("multi_17");
 
 for(let i = 1 ; i <= 20 ; i++){
 
-    console.log('17 *', i ,'=', i*17);
+    // console.log('17 *', i ,'=', i*17);
     multi17.innerHTML += `17 * ${i} = ${i*17} <br>`;
     multi17.style.backgroundColor = "blue";
 }
@@ -155,7 +162,7 @@ let multi18 = document.getElementById("multi_18");
 
 for(let i = 1 ; i <= 20 ; i++){
 
-    console.log('18 *', i ,'=', i*18);
+    // console.log('18 *', i ,'=', i*18);
     multi18.innerHTML += `18 * ${i} = ${i*18} <br>`;
     multi18.style.backgroundColor = "green";
 }
@@ -171,7 +178,7 @@ let multi19 = document.getElementById("multi_19");
 
 for(let i = 1 ; i <= 20 ; i++){
 
-    console.log('19 *', i ,'=', i*19);
+    // console.log('19 *', i ,'=', i*19);
     multi19.innerHTML += `19 * ${i} = ${i*19} <br>`;
     multi19.style.backgroundColor = "yellow";
 }
@@ -183,7 +190,7 @@ for(let i = 1 ; i <= 20 ; i++){
 
    for(let i = 1 ; i <= 20 ; i++){
 
-    console.log('20 *', i,'=', i*20)
+    // console.log('20 *', i,'=', i*20)
     multi20.innerHTML += `20 * ${i} = ${i*20}<br>`
     multi20.style.backgroundColor = "pink"
    
@@ -195,7 +202,7 @@ let multi21 = document.getElementById("multi_21");
 
    for(let i = 1 ; i <= 20 ; i++){
 
-    console.log('21 *', i,'=', i*21)
+    // console.log('21 *', i,'=', i*21)
     multi21.innerHTML += `21 * ${i} = ${i*21}<br>`
     multi21.style.backgroundColor ="purple"
    
