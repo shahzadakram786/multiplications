@@ -15,7 +15,10 @@ for(let i = 1 ; i <= 10 ; i++){
 if (!isNaN(a)) {
     let result = number(a);
   para.innerHTML += `${a} x ${i} = ${i*a} <br>` 
-  para.style.backgroundColor = "silver";
+//   para.style.backgroundColor = "silver";
+  para.style.borderRadius = "20px"
+  para.style.padding = "10px";
+  para.style.textAlign = "center";
     // console.log('this is a ',a);
 
 }
@@ -25,7 +28,7 @@ else{
     para.style.color = "red";
     para.style.fontWeight = "bolder";
     para.style.wordSpacing = "2px";
-    para.style.textShadow = "5px 5px 10px white";
+    para.style.textShadow = "2px 2px 10px white";
 }
 
 }

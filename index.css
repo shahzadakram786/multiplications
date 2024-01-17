@@ -3,9 +3,50 @@
     padding: 0;
 }
 
+
+.data{
+  margin-top: 2em;
+}
+
+#input{
+
+    padding: 1em;
+    font-size: 1rem;
+    width: 86%;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 1rem;
+    box-shadow: inset 3px 4px 10px black;
+
+
+
+}
+#par{
+    background-color: #090f14dc;
+    color: white;
+    margin-bottom: 1.2em;
+    border-radius: 20px;
+    border: 1px solid grey;
+    text-shadow: 3px 4px 10px white;
+    font-size: 1.5rem;
+    
+}
+
+
+#butn{
+    background-color: #59b7ff; /* Green */
+    padding: 0.8rem;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 10px;
+    
+
+}
+
+
 .container{
     background-image: linear-gradient(rgba(83, 75, 75, 0.542) ,rgb(148, 149, 157)),url(/18edb51204dd3079edec7840e0d8d070.jpg);
-
+    /* filter: blur(px); */
     /* background-color: aqua; */
     width: 100%;
     display: flex;
