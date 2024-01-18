@@ -20,13 +20,19 @@ if (!isNaN(a)) {
     // console.log('this is a ',a);
 
 }
+// else if(!isNaN(a) ){
+
+
+// }
+
+
 else{
     // alert('Please enter a number');
     para.innerHTML = "you have entered a wrong data type"  ;
-    para.style.color = "red";
-    para.style.fontWeight = "bolder";
-    para.style.wordSpacing = "2px";
-    para.style.textShadow = "2px 2px 10px white";
+    // para.style.color = "red";
+    // para.style.fontWeight = "bolder";
+    // para.style.wordSpacing = "2px";
+    // para.style.textShadow = "2px 2px 10px white";
 }
 
 }
