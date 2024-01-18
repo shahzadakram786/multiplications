@@ -1,16 +1,14 @@
 const input = document.getElementById("input");
 const para = document.getElementById("par");
 const butn = document.getElementById("butn");
+const Cbutn = document.getElementById("Cbutn");
+
  
 
 
 butn.addEventListener('click', () =>{
 
 let a = parseInt(input.value)
-
-// for(let i = 1;i <= 10 ; i++){
-
-// console.log(NaN(a))
 for(let i = 1 ; i <= 10 ; i++){
 if (!isNaN(a)) {
     let result = number(a);
@@ -37,6 +35,17 @@ function number(a){
     return a
 }
 
+
+
+
+Cbutn.addEventListener('click', ()=> {
+para.innerHTML = null ;
+input.value = null;
+
+
+
+
+})
 
 
 
